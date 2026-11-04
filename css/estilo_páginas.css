@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1;
+  min-width: 0;
+}
+h1{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.header,
+.rodape {
+  background-color: rgb(60, 87, 60);
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+}
+
+.conteudo {
+  display: flex;
+  align-items: stretch;
+  min-height: calc(100vh - 100px);
+}
+
+.navegação {
+  background-color: rgb(39, 49, 39);
+  color: antiquewhite;
+  width: 20%;
+  flex-shrink: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegação a {
+  display: block;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navegação a:hover {
+  background-color: rgb(60, 87, 60);
+  padding-left: 20px;
+  color: white;
+}
+
+.principal {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  background:
+    linear-gradient(rgba(204, 241, 217, 0.5), rgba(128, 221, 162, 0.5)),
+    url("../imagens/fundo verde.avif") center center / cover no-repeat;
+  flex: 1;
+  min-width: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
